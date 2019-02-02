@@ -1,0 +1,61 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "devtools": "react-devtools",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "eject": "expo eject",
+    "test": "node ./node_modules/jest/bin/jest.js --watchAll"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "@expo/samples": "2.1.1",
+    "@expo/vector-icons": "^9.0.0",
+    "@shoutem/ui": "^0.23.9",
+    "dva": "^2.4.1",
+    "dva-core": "^1.4.0",
+    "dva-no-router": "^1.2.1",
+    "eslint": "^5.12.0",
+    "eslint-config-universe": "^1.0.7",
+    "exit-on-double-back": "^1.0.1",
+    "expo": "^32.0.0",
+    "hash.js": "^1.1.7",
+    "moment": "latest",
+    "nzh": "^1.0.4",
+    "prettier": "^1.15.3",
+    "qs": "latest",
+    "react": "16.7.0",
+    "react-dom": "^16.7.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
+    "react-native-elements": "^1.0.0-beta7",
+    "react-native-grid-list": "^1.0.9",
+    "react-native-htmlview": "^0.13.0",
+    "react-native-infinite-scroll-view": "^0.4.5",
+    "react-native-linear-gradient": "^2.5.3",
+    "react-native-modal": "^7.0.2",
+    "react-native-ratings": "^6.3.0",
+    "react-native-root-toast": "^3.0.2",
+    "react-native-snap-carousel": "^3.7.5",
+    "react-native-touchable-scale": "^2.0.0",
+    "react-native-vector-icons": "^6.1.0",
+    "react-navigation": "^3.0.9",
+    "schedule": "^0.4.0",
+    "striptags": "^3.1.1",
+    "styled-components": "latest",
+    "stylelint": "^9.9.0",
+    "stylelint-react-native": "^2.0.1",
+    "whatwg-fetch": "^3.0.0"
+  },
+  "devDependencies": {
+    "@babel/polyfill": "^7.2.5",
+    "babel-preset-expo": "^5.0.0",
+    "jest-expo": "^32.0.0"
+  },
+  "private": true,
+  "eslintConfig": {
+    "extends": "universe/native"
+  }
+}

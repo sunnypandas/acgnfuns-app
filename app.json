@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "次元饭",
+    "slug": "acgnfuns",
+    "privacy": "public",
+    "sdkVersion": "32.0.0",
+    "packagerOpts": {
+      "nonPersistent": "--nonPersistent"
+    },
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.2",
+    "orientation": "portrait",
+    "icon": "./src/assets/images/icon.png",
+    "splash": {
+      "image": "./src/assets/images/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#000000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.acgnfuns.acgn",
+      "buildNumber": "1.0.2"
+    },
+    "android": {
+      "package": "com.acgnfuns.acgn",
+      "versionCode": 2
+    },
+    "description": ""
+  }
+}
